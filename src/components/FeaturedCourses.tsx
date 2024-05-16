@@ -2,7 +2,22 @@ import React from "react";
 import courseData from "../data/music_courses.json";
 import Link from "next/link";
 
+interface Course {
+  id: number;
+  title: string;
+  slug: string;
+  description: string;
+  price: number;
+  instructor: string;
+  isFeatured: boolean;
+  image: string;
+}
+
 function FeaturedCourses() {
+  const featuredCourses = courseData.courses.filter(
+    (course: Course) => course.isFeatured
+  );
+
   return (
     <div className="py-12 bg-gray-900">
       <div>
@@ -17,7 +32,11 @@ function FeaturedCourses() {
       </div>
       <div className="mt-10">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
-          Hello
+          {featuredCourses.map((course: Course) => (
+            <div key={course.id} className="flex justify-center">
+              test
+            </div>
+          ))}
         </div>
       </div>
       <div className="mt-20 text-center">
