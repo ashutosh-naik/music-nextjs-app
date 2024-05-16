@@ -27,7 +27,7 @@ function FeaturedCourses() {
           <h2 className="text-base text-teal-600 font-semibold tracking-wide uppercase">
             Featured Courses
           </h2>
-          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
+          <p className="mt-2 mb-12 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
             Learn With the Best
           </p>
         </div>
@@ -38,7 +38,7 @@ function FeaturedCourses() {
             <div key={course.id} className="flex justify-center">
               <BackgroundGradient className="flex flex-col rounded-[22px] max-w-sm bg-white dark:bg-zinc-900 overflow-hidden h-full">
                 <div className="p-4 sm:p-6 flex flex-col items-center text-center flex-grow">
-                  <p className="text-lg sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
+                  <p className="text-lg sm:text-xl text-black mt-2 mb-2 dark:text-neutral-200">
                     {course.title}
                   </p>
                   <p className="text-sm text-neutral-600 dark:text-neutral-400 flex-grow">
@@ -56,7 +56,7 @@ function FeaturedCourses() {
           ))}
         </div>
       </div>
-      <div className="mt-20 text-center">
+      <div className="mt-16 text-center">
         <Link
           href="/courses"
           className="px-4 py-2 rounded border border-neutral-600 text-neutral-700 bg-white hover:bg-gray-100 transition duration-200"
