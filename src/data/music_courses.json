@@ -28,17 +28,17 @@
       "price": 99.99,
       "instructor": "Jessica Davis",
       "isFeatured": true,
-      "image": "/courses/guitar.jpg"
+      "image": "/courses/vocals.jpg"
     },
     {
       "id": 4,
-      "title": "Guitar Fundamentals",
-      "slug": "guitar-fundamentals",
-      "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
+      "title": "Drumming Mastery",
+      "slug": "drumming-mastery",
+      "description": "Master the drums with our comprehensive course covering all skill levels.",
       "price": 99.99,
       "instructor": "James Miller",
       "isFeatured": false,
-      "image": "/courses/guitar.jpg"
+      "image": "/courses/drumming.jpg"
     },
     {
       "id": 5,
@@ -48,7 +48,7 @@
       "price": 99.99,
       "instructor": "Emily Anderson",
       "isFeatured": true,
-      "image": "/courses/guitar.jpg"
+      "image": "/courses/music-production.jpg"
     },
     {
       "id": 6,
@@ -58,7 +58,7 @@
       "price": 99.99,
       "instructor": "Christopher Wilson",
       "isFeatured": true,
-      "image": "/courses/guitar.jpg"
+      "image": "/courses/electronic-music.jpg"
     },
     {
       "id": 7,
@@ -68,17 +68,17 @@
       "price": 99.99,
       "instructor": "Amanda Brown",
       "isFeatured": true,
-      "image": "/courses/guitar.jpg"
+      "image": "/courses/blues-guitar.jpg"
     },
     {
       "id": 8,
-      "title": "Guitar Fundamentals",
-      "slug": "guitar-fundamentals",
-      "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
+      "title": "Jazz Improvisation",
+      "slug": "jazz-improvisation",
+      "description": "Learn the art of jazz improvisation with this course designed for all levels.",
       "price": 99.99,
       "instructor": "Joshua Taylor",
       "isFeatured": false,
-      "image": "/courses/guitar.jpg"
+      "image": "/courses/jazz.jpg"
     }
   ]
 }
